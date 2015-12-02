@@ -93,12 +93,7 @@ int main( int argc, char** argv ){//get arguments from command line, i.e., youre
 		    stringstream line(expression);
 		    line >> oper;
 		    cout << "reading operator " << oper << endl;
-		    //op2 = TOP
-		    //POP
-		    //op1 = TOP 
-		    //POP
-		    //compute result
-		    //PUSH result
+
 		    if( !A.isEmpty()) {
 				op2 =  A.Top();  
 				A.Pop();    // op2 is  before op1 here
